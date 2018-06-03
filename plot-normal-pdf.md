@@ -50,3 +50,10 @@ fx <- lapply(domain, norm_pdf, d.mean = men.mean, d.sd = men.sd)
 
 plot(domain, fx, type = "l")
 ```
+
+fooplot.com
+normal distribution around mean:63.7, sd:2.7
+`(1/(2.7*sqrt(2*pi)))*e^(-0.5*(((x-63.7)/2.7)^2))`
+
+normal distribution around mean:69.1, sd:2.9
+`(1/(2.9*sqrt(2*pi)))*e^(-0.5*(((x-69.1)/2.9)^2))`
