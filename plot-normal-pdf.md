@@ -51,7 +51,7 @@ fx <- lapply(domain, norm_pdf, d.mean = men.mean, d.sd = men.sd)
 plot(domain, fx, type = "l")
 ```
 
-fooplot.com
+fooplot.com see http://fooplot.com/#W3sidHlwZSI6MCwiZXEiOiIoMS8oMi45KnNxcnQoMipwaSkpKSplXigtMC41KigoKHgtNjkuMSkvMi45KV4yKSkiLCJjb2xvciI6IiM5NDQxNDEifSx7InR5cGUiOjAsImVxIjoiKDEvKDIuNypzcXJ0KDIqcGkpKSkqZV4oLTAuNSooKCh4LTYzLjcpLzIuNyleMikpIiwiY29sb3IiOiIjMjUyMjdBIn0seyJ0eXBlIjoxMDAwLCJ3aW5kb3ciOlsiNTQiLCI3OCIsIjAiLCIwLjE2Il19XQ--
 normal distribution around mean:63.7, sd:2.7
 `(1/(2.7*sqrt(2*pi)))*e^(-0.5*(((x-63.7)/2.7)^2))`
 
